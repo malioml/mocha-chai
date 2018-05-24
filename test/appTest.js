@@ -13,10 +13,10 @@ describe('App', () => {
         
         describe('addNumbers()', () => {
                 it('addNumbers should be above 5', () => {
-                        asset.isAbove(app.addNumbers(5,5), 5)
+                        assert.isAbove(app.addNumbers(5,5), 5)
                 })
                 it('addNumbers should return a number', () => {
-                        asset.typeOf(app.addNumbers(5,5), 'number')
+                        assert.typeOf(app.addNumbers(5,5), 'number')
                 })
         })
 })
