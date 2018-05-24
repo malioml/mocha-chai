@@ -1,5 +1,5 @@
-const { assert } = require('chai').assert
-const { app } = require('../app')
+const assert = require('chai').assert
+const app= require('../app')
 
 describe('App', () => {
         describe('sayHello()', () => {
