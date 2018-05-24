@@ -1,6 +1,6 @@
 module.exports = {
         sayHello: () => {
-                return 'Hello'
+                return 'hello'
         },
         addNumbers: (a,b) => {
                 return a + b
