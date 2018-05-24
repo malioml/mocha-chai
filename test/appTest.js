@@ -6,7 +6,7 @@ describe('App', () => {
                 it('sayHello should return hello', () => {
                         assert.equal(app.sayHello(), 'hello')
                 })
-                it('sayHello should return a string' () => {
+                it('sayHello should return a string', () => {
                         assert.typeOf(app.sayHello(), 'string')
                 })
         })
